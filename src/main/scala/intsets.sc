@@ -32,3 +32,6 @@ val t3 = new NonEmpty(5, new Empty, new Empty)
 val t4 = t3 incl 6
 
 t2 union t4
+
+val a: Array[IntSet] = Array(new NonEmpty(1,new Empty, new Empty))
+val b: Array[IntSet] = a
